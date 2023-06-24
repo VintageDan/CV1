@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="weather2.css">
+</head>
+
+    <header>
+        <div class="header">
+            <a href="#default" class="logo">Dan Platten</a>
+            
+             <div class="header-right">
+                
+              <a class="active" href="../index.html">Home</a>
+
+            </div>
+          </div> 
+              
+        </header>
+    <body>
+        <h1 id="intro">Weather App</h1>
+        <div id="weatherContainer">
+            <div id="weatherDescription"><br>
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div><img id="documentIconImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+
+            </div>
+
+        </div>
+        <div id="searchContainer">
+            <input class="searchControl" type="text" placeholder="Please Enter City Name" id="searchInput">
+            <button class="searchControl" id="searchBtn">Go!</button>
+        </div>
+   
+        <script src="weather2.js"></script>
+    
+        
+    </body>
+   
+
+
+    
+    
+    </html>
+
+   
